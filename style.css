@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*Variaveis*/
+
+:root {
+
+  /*Height*/
+  --header-height: 6rem;
+  --footer-height: 4rem;
+
+  /*Font-Size*/
+  --font-size-body: 1rem;
+  --font-size-title: 1.25rem;
+
+  /*Colors*/
+  --color-body: rgb(243, 237, 237);
+  --color-nav: rgb(20, 214, 20);
+  --color-logo: rgb(255, 250, 250);
+  --color-font: black;
+  --color-white: white;
+  
+}
+
+/*Geral*/
+
+body {
+  background: var(--color-body);
+}
+
+main {
+  padding-top: 6rem;
+}
+
+.section {
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+}
+
+.parallax-container .parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.parallax-container .parallax img{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%);
+}
+
+
+/*Header*/
+
+header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  height: var(--header-height);
+  background: var(--color-nav);
+  color: var(--color-logo);
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.header_fixed {
+  height: 4rem;
+}
+
+.logo {
+  font-size: 2.15rem;
+}
+
+/*Main*/
+
+.text {
+  padding: 1.5rem;
+}
+
+/*Footer*/
+
+footer {
+  background: var(--color-nav);
+  height: var(--footer-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  margin-top: 5rem;
+}
+
+

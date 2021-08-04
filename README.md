@@ -1,8 +1,8 @@
 # Efeito Parallax
 
-Projeto com o intuito de mostrar o efeito PARALLAX nas imagens.
+🚀Tecnologias
 
-Ferramentas Utilizadas:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 :white_check_mark: HTML;
 
@@ -13,3 +13,11 @@ Ferramentas Utilizadas:
 :white_check_mark: Biblioteca JQuery
 
 :white_check_mark: Framework Materialize;
+
+💻 Projeto
+
+Projeto com o intuito de mostrar o efeito PARALLAX nas imagens.
+
+🔖 Layout
+
+Você pode visualizar o layout do projeto através desse <a href='https://alex-filipe.github.io/effect-parallax/'>link.

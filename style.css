@@ -16,6 +16,7 @@
   /*Font-Size*/
   --font-size-body: 1rem;
   --font-size-title: 1.25rem;
+  --font-size-logo: 2.25rem;
 
   /*Colors*/
   --color-body: rgb(243, 237, 237);
@@ -104,7 +105,7 @@ header {
 }
 
 .logo {
-  font-size: 2.15rem;
+  font-size: var(--font-size-logo);
 }
 
 /*Main*/
